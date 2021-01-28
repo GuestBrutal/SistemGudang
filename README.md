@@ -59,6 +59,7 @@ erDiagram
 ```
 
 # Design Class Diagram for JavaFX and Database
+
 ```mermaid
 classDiagram
     SitemGudang <|-- IndividualHolder
@@ -118,4 +119,4 @@ classDiagram
         getConnection(String driver)
         createTable();
     }
-    ```
+```
