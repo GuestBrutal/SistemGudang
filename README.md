@@ -66,7 +66,7 @@ classDiagram
     SitemGudang <|-- CorporateHolder
     SitemGudang "1"--o"*" Akun : has
     SitemGudang o-- SitemGudangDataModel : Data Modeling
-    SitemGudangDataModel <-- AccountHolderController : Data Control
+    SitemGudangDataModel <-- SitemGudangController : Data Control
     SitemGudangDataModel --> DBHelper : DB Connection
     SitemGudangController <.. SitemGudangForm : Form Control      
 
